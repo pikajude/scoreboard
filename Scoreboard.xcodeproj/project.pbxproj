@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176FD00516554F390080960F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176FD00416554F390080960F /* Cocoa.framework */; };
+		176FD00F16554F390080960F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 176FD00D16554F390080960F /* InfoPlist.strings */; };
+		176FD01116554F390080960F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 176FD01016554F390080960F /* main.m */; };
+		176FD01516554F390080960F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 176FD01316554F390080960F /* Credits.rtf */; };
+		176FD01816554F390080960F /* JTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 176FD01716554F390080960F /* JTAppDelegate.m */; };
+		176FD01B16554F3A0080960F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 176FD01916554F3A0080960F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		176FD00016554F390080960F /* Scoreboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scoreboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		176FD00416554F390080960F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		176FD00716554F390080960F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		176FD00816554F390080960F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		176FD00916554F390080960F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		176FD00C16554F390080960F /* Scoreboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scoreboard-Info.plist"; sourceTree = "<group>"; };
+		176FD00E16554F390080960F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		176FD01016554F390080960F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		176FD01216554F390080960F /* Scoreboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scoreboard-Prefix.pch"; sourceTree = "<group>"; };
+		176FD01416554F390080960F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		176FD01616554F390080960F /* JTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTAppDelegate.h; sourceTree = "<group>"; };
+		176FD01716554F390080960F /* JTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTAppDelegate.m; sourceTree = "<group>"; };
+		176FD01A16554F3A0080960F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		176FCFFD16554F390080960F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176FD00516554F390080960F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		176FCFF516554F390080960F = {
+			isa = PBXGroup;
+			children = (
+				176FD00A16554F390080960F /* Scoreboard */,
+				176FD00316554F390080960F /* Frameworks */,
+				176FD00116554F390080960F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		176FD00116554F390080960F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				176FD00016554F390080960F /* Scoreboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		176FD00316554F390080960F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				176FD00416554F390080960F /* Cocoa.framework */,
+				176FD00616554F390080960F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		176FD00616554F390080960F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				176FD00716554F390080960F /* AppKit.framework */,
+				176FD00816554F390080960F /* CoreData.framework */,
+				176FD00916554F390080960F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		176FD00A16554F390080960F /* Scoreboard */ = {
+			isa = PBXGroup;
+			children = (
+				176FD01616554F390080960F /* JTAppDelegate.h */,
+				176FD01716554F390080960F /* JTAppDelegate.m */,
+				176FD01916554F3A0080960F /* MainMenu.xib */,
+				176FD00B16554F390080960F /* Supporting Files */,
+			);
+			path = Scoreboard;
+			sourceTree = "<group>";
+		};
+		176FD00B16554F390080960F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				176FD00C16554F390080960F /* Scoreboard-Info.plist */,
+				176FD00D16554F390080960F /* InfoPlist.strings */,
+				176FD01016554F390080960F /* main.m */,
+				176FD01216554F390080960F /* Scoreboard-Prefix.pch */,
+				176FD01316554F390080960F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		176FCFFF16554F390080960F /* Scoreboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176FD01E16554F3A0080960F /* Build configuration list for PBXNativeTarget "Scoreboard" */;
+			buildPhases = (
+				176FCFFC16554F390080960F /* Sources */,
+				176FCFFD16554F390080960F /* Frameworks */,
+				176FCFFE16554F390080960F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scoreboard;
+			productName = Scoreboard;
+			productReference = 176FD00016554F390080960F /* Scoreboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		176FCFF716554F390080960F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Joel;
+			};
+			buildConfigurationList = 176FCFFA16554F390080960F /* Build configuration list for PBXProject "Scoreboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 176FCFF516554F390080960F;
+			productRefGroup = 176FD00116554F390080960F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				176FCFFF16554F390080960F /* Scoreboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		176FCFFE16554F390080960F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176FD00F16554F390080960F /* InfoPlist.strings in Resources */,
+				176FD01516554F390080960F /* Credits.rtf in Resources */,
+				176FD01B16554F3A0080960F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		176FCFFC16554F390080960F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176FD01116554F390080960F /* main.m in Sources */,
+				176FD01816554F390080960F /* JTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		176FD00D16554F390080960F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176FD00E16554F390080960F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		176FD01316554F390080960F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176FD01416554F390080960F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		176FD01916554F3A0080960F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176FD01A16554F3A0080960F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		176FD01C16554F3A0080960F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		176FD01D16554F3A0080960F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		176FD01F16554F3A0080960F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scoreboard/Scoreboard-Prefix.pch";
+				INFOPLIST_FILE = "Scoreboard/Scoreboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		176FD02016554F3A0080960F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scoreboard/Scoreboard-Prefix.pch";
+				INFOPLIST_FILE = "Scoreboard/Scoreboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		176FCFFA16554F390080960F /* Build configuration list for PBXProject "Scoreboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176FD01C16554F3A0080960F /* Debug */,
+				176FD01D16554F3A0080960F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176FD01E16554F3A0080960F /* Build configuration list for PBXNativeTarget "Scoreboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176FD01F16554F3A0080960F /* Debug */,
+				176FD02016554F3A0080960F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 176FCFF716554F390080960F /* Project object */;
+}
