@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1702A0C016649198009E2D3F /* Teams.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1702A0BF16649198009E2D3F /* Teams.plist */; };
+		1702A0C416649A18009E2D3F /* JTConsoleWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1702A0C316649A18009E2D3F /* JTConsoleWindowController.m */; };
 		176FD00516554F390080960F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176FD00416554F390080960F /* Cocoa.framework */; };
 		176FD00F16554F390080960F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 176FD00D16554F390080960F /* InfoPlist.strings */; };
 		176FD01116554F390080960F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 176FD01016554F390080960F /* main.m */; };
 		176FD01516554F390080960F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 176FD01316554F390080960F /* Credits.rtf */; };
 		176FD01816554F390080960F /* JTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 176FD01716554F390080960F /* JTAppDelegate.m */; };
 		176FD01B16554F3A0080960F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 176FD01916554F3A0080960F /* MainMenu.xib */; };
+		176FD02316554FE40080960F /* JTWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 176FD02216554FE40080960F /* JTWindow.m */; };
+		176FD0261655551B0080960F /* JTScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 176FD0251655551B0080960F /* JTScoreView.m */; };
+		176FD02916557B830080960F /* JTInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 176FD02816557B830080960F /* JTInfoView.m */; };
+		176FD02F165582A50080960F /* JTTeamColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 176FD02E165582A50080960F /* JTTeamColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1702A0BF16649198009E2D3F /* Teams.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Teams.plist; sourceTree = "<group>"; };
+		1702A0C216649A18009E2D3F /* JTConsoleWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTConsoleWindowController.h; sourceTree = "<group>"; };
+		1702A0C316649A18009E2D3F /* JTConsoleWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTConsoleWindowController.m; sourceTree = "<group>"; };
 		176FD00016554F390080960F /* Scoreboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scoreboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		176FD00416554F390080960F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		176FD00716554F390080960F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +38,14 @@
 		176FD01616554F390080960F /* JTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTAppDelegate.h; sourceTree = "<group>"; };
 		176FD01716554F390080960F /* JTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTAppDelegate.m; sourceTree = "<group>"; };
 		176FD01A16554F3A0080960F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		176FD02116554FE40080960F /* JTWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTWindow.h; sourceTree = "<group>"; };
+		176FD02216554FE40080960F /* JTWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTWindow.m; sourceTree = "<group>"; };
+		176FD0241655551B0080960F /* JTScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTScoreView.h; sourceTree = "<group>"; };
+		176FD0251655551B0080960F /* JTScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTScoreView.m; sourceTree = "<group>"; };
+		176FD02716557B830080960F /* JTInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTInfoView.h; sourceTree = "<group>"; };
+		176FD02816557B830080960F /* JTInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTInfoView.m; sourceTree = "<group>"; };
+		176FD02D165582A50080960F /* JTTeamColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTeamColors.h; sourceTree = "<group>"; };
+		176FD02E165582A50080960F /* JTTeamColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTeamColors.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +102,17 @@
 				176FD01616554F390080960F /* JTAppDelegate.h */,
 				176FD01716554F390080960F /* JTAppDelegate.m */,
 				176FD01916554F3A0080960F /* MainMenu.xib */,
+				1702A0C216649A18009E2D3F /* JTConsoleWindowController.h */,
+				1702A0C316649A18009E2D3F /* JTConsoleWindowController.m */,
+				176FD02716557B830080960F /* JTInfoView.h */,
+				176FD02816557B830080960F /* JTInfoView.m */,
+				176FD0241655551B0080960F /* JTScoreView.h */,
+				176FD0251655551B0080960F /* JTScoreView.m */,
+				176FD02D165582A50080960F /* JTTeamColors.h */,
+				176FD02E165582A50080960F /* JTTeamColors.m */,
+				1702A0BF16649198009E2D3F /* Teams.plist */,
+				176FD02116554FE40080960F /* JTWindow.h */,
+				176FD02216554FE40080960F /* JTWindow.m */,
 				176FD00B16554F390080960F /* Supporting Files */,
 			);
 			path = Scoreboard;
@@ -157,6 +185,7 @@
 				176FD00F16554F390080960F /* InfoPlist.strings in Resources */,
 				176FD01516554F390080960F /* Credits.rtf in Resources */,
 				176FD01B16554F3A0080960F /* MainMenu.xib in Resources */,
+				1702A0C016649198009E2D3F /* Teams.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +198,11 @@
 			files = (
 				176FD01116554F390080960F /* main.m in Sources */,
 				176FD01816554F390080960F /* JTAppDelegate.m in Sources */,
+				176FD02316554FE40080960F /* JTWindow.m in Sources */,
+				176FD0261655551B0080960F /* JTScoreView.m in Sources */,
+				176FD02916557B830080960F /* JTInfoView.m in Sources */,
+				176FD02F165582A50080960F /* JTTeamColors.m in Sources */,
+				1702A0C416649A18009E2D3F /* JTConsoleWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +294,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Scoreboard/Scoreboard-Prefix.pch";
 				INFOPLIST_FILE = "Scoreboard/Scoreboard-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,6 +307,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Scoreboard/Scoreboard-Prefix.pch";
 				INFOPLIST_FILE = "Scoreboard/Scoreboard-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -296,6 +332,7 @@
 				176FD02016554F3A0080960F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

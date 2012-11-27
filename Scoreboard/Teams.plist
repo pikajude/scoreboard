@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PHL D1</key>
+	<dict>
+		<key>Pacific Killa Beez</key>
+		<dict>
+			<key>display</key>
+			<string>Beez</string>
+			<key>color</key>
+			<string>ffa500</string>
+			<key>bright</key>
+			<true/>
+		</dict>
+		<key>Rubber Duckies</key>
+		<dict>
+			<key>display</key>
+			<string>Duckies</string>
+			<key>color</key>
+			<string>ffff54</string>
+            <key>bright</key>
+            <true/>
+		</dict>
+		<key>Sexy Sharks</key>
+		<dict>
+			<key>display</key>
+			<string>Sharks</string>
+			<key>color</key>
+			<string>1b6453</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+		<key>Lithuanian Lab Rats</key>
+		<dict>
+			<key>display</key>
+			<string>Rats</string>
+			<key>color</key>
+			<string>99cc00</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+		<key>Honolulu Frog Dogs</key>
+		<dict>
+			<key>display</key>
+			<string>Frogs</string>
+			<key>color</key>
+			<string>008000</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+		<key>Talladega Nights</key>
+		<dict>
+			<key>display</key>
+			<string>Nights</string>
+			<key>color</key>
+			<string>000052</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+		<key>Fresno Forest Fires</key>
+		<dict>
+			<key>display</key>
+			<string>Fires</string>
+			<key>color</key>
+			<string>9f00ff</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+		<key>Whitebeard Pirates</key>
+		<dict>
+			<key>display</key>
+			<string>Pirates</string>
+			<key>color</key>
+			<string>ffebcd</string>
+			<key>bright</key>
+			<true/>
+		</dict>
+		<key>m0nstars</key>
+		<dict>
+			<key>display</key>
+			<string>m0nstars</string>
+			<key>color</key>
+			<string>000000</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+		<key>Hip-Hop Kangaroos</key>
+		<dict>
+			<key>display</key>
+			<string>Roos</string>
+			<key>color</key>
+			<string>ffff00</string>
+            <key>bright</key>
+            <true/>
+		</dict>
+	</dict>
+	<key>PHL D2</key>
+	<dict>
+		<key>Lyons Lions</key>
+		<dict>
+			<key>display</key>
+			<string>Lions</string>
+			<key>color</key>
+			<string>1299ef</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+		<key>HC Spartans</key>
+		<dict>
+			<key>display</key>
+			<string>Spartans</string>
+			<key>color</key>
+			<string>deb887</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+		<key>The Conquistadores</key>
+		<dict>
+			<key>display</key>
+			<string>Conqs</string>
+			<key>color</key>
+			<string>df9d1f</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+		<key>Gotham City Batmen</key>
+		<dict>
+			<key>display</key>
+			<string>Batmen</string>
+			<key>color</key>
+			<string>656565</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+		<key>Mexico</key>
+		<dict>
+			<key>display</key>
+			<string>México</string>
+			<key>color</key>
+			<string>2d2efe</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+		<key>Pillsbury Doughboys</key>
+		<dict>
+			<key>display</key>
+			<string>D-boys</string>
+			<key>color</key>
+			<string>89cff0</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+		<key>Rhythm Beasts</key>
+		<dict>
+			<key>display</key>
+			<string>Beasts</string>
+			<key>color</key>
+			<string>26619c</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+		<key>Stockholm Syndrome</key>
+		<dict>
+			<key>display</key>
+			<string>Syndrome</string>
+			<key>color</key>
+			<string>008080</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+		<key>Tanzanian Test Tubes</key>
+		<dict>
+			<key>display</key>
+			<string>Tubes</string>
+			<key>color</key>
+			<string>ffffff</string>
+            <key>bright</key>
+            <true/>
+		</dict>
+		<key>Wolf Pack</key>
+		<dict>
+			<key>display</key>
+			<string>Wolves</string>
+			<key>color</key>
+			<string>cf0000</string>
+            <key>bright</key>
+            <false/>
+		</dict>
+	</dict>
+</dict>
+</plist>
