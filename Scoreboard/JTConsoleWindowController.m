@@ -43,9 +43,10 @@
         [[self.homeTeams menu] addItem:titleItem];
         [[self.awayTeams menu] addItem:[[titleItem copy] autorelease]];
         
-        [teams enumerateKeysAndObjectsUsingBlock:^(NSString *teamName,
-                                                   NSDictionary *attrs,
-                                                   BOOL *stop) {
+        NSArray *sortedTeams = [[teams allKeys] sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)];
+        
+        for (NSString *teamName in sortedTeams) {
+            NSDictionary *attrs = [teams objectForKey:teamName];
             NSMenuItem *teamItem = [[NSMenuItem new] autorelease];
             [teamItem setTitle:teamName];
             [teamItem setIndentationLevel:1];
@@ -56,7 +57,7 @@
             NSMenuItem *nextTeamItem = [[teamItem copy] autorelease];
             [nextTeamItem setAction:@selector(pickAwayTeam:)];
             [[self.awayTeams menu] addItem:nextTeamItem];
-        }];
+        }
     }];
 }
 

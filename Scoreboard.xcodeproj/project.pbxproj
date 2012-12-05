@@ -110,9 +110,9 @@
 				176FD0251655551B0080960F /* JTScoreView.m */,
 				176FD02D165582A50080960F /* JTTeamColors.h */,
 				176FD02E165582A50080960F /* JTTeamColors.m */,
-				1702A0BF16649198009E2D3F /* Teams.plist */,
 				176FD02116554FE40080960F /* JTWindow.h */,
 				176FD02216554FE40080960F /* JTWindow.m */,
+				1702A0BF16649198009E2D3F /* Teams.plist */,
 				176FD00B16554F390080960F /* Supporting Files */,
 			);
 			path = Scoreboard;

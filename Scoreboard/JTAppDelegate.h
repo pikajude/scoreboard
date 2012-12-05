@@ -27,12 +27,10 @@
 - (IBAction)awayTickDown:(id)sender;
 
 - (IBAction)halfTickUp:(id)sender;
-- (IBAction)halfTickDown:(id)sender;
 - (IBAction)gameTickUp:(id)sender;
-- (IBAction)gameTickDown:(id)sender;
 
-- (IBAction)swap:(id)sender;
-- (IBAction)resetAll:(id)sender;
+- (void)swap;
+- (void)resetAll;
 
 - (void)pickHomeTeam:(NSMenuItem *)sender;
 - (void)pickAwayTeam:(NSMenuItem *)sender;

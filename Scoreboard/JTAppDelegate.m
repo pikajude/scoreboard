@@ -46,24 +46,16 @@
 - (IBAction)halfTickUp:(id)sender
 {
     [self.half tickUp];
-}
-
-- (IBAction)halfTickDown:(id)sender
-{
-    [self.half tickDown];
+    [self swap];
 }
 
 - (IBAction)gameTickUp:(id)sender
 {
     [self.game tickUp];
+    [self resetAll];
 }
 
-- (IBAction)gameTickDown:(id)sender
-{
-    [self.game tickDown];
-}
-
-- (IBAction)swap:(id)sender
+- (void)swap
 {
     NSString *placeholder = self.awayTeam.team;
     self.awayTeam.team = self.homeTeam.team;
@@ -72,6 +64,10 @@
     NSColor *placeholderC = self.awayTeam.color;
     self.awayTeam.color = self.homeTeam.color;
     self.homeTeam.color = placeholderC;
+    
+    BOOL tmp = self.homeTeam.bright;
+    self.homeTeam.bright = self.awayTeam.bright;
+    self.awayTeam.bright = tmp;
     
     self.awayTeam.score ^= self.homeTeam.score;
     self.homeTeam.score ^= self.awayTeam.score;
@@ -85,13 +81,15 @@
     [self.awayTeams selectItemAtIndex:homeIndex];
 }
 
-- (IBAction)resetAll:(id)sender
+- (void)resetAll
 {
     [self.homeTeam reset];
     [self.awayTeam reset];
-    [self halfTickDown:self];
+    [self.half tickDown];
     [self homeTickDown:self];
     [self awayTickDown:self];
+    [self.homeTeams selectItemAtIndex:0];
+    [self.awayTeams selectItemAtIndex:0];
 }
 
 - (void)pickHomeTeam:(NSMenuItem *)sender

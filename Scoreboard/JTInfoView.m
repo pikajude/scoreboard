@@ -9,6 +9,8 @@
 #import "JTInfoView.h"
 
 static NSAttributedString *sbdisplay(NSString *str, NSInteger half) {
+    NSMutableParagraphStyle *st = [[[NSParagraphStyle defaultParagraphStyle] mutableCopy] autorelease];
+    [st setAlignment:NSCenterTextAlignment];
     NSMutableDictionary *halfAttr = [[@{NSFontAttributeName:
                                       [NSFont fontWithName:@"Helvetica Neue Bold"
                                                       size:36.0f],
@@ -17,7 +19,9 @@ static NSAttributedString *sbdisplay(NSString *str, NSInteger half) {
                                       [NSColor colorWithDeviceRed:0.482f
                                                             green:0.482f
                                                              blue:0.482f
-                                                            alpha:1.0f]
+                                                            alpha:1.0f],
+                                      
+                                      NSParagraphStyleAttributeName: st
                                       } mutableCopy] autorelease];
     NSMutableAttributedString *h = [[[NSMutableAttributedString alloc]
                                     initWithString:[NSString stringWithFormat:@"%@ ", str]
@@ -46,7 +50,7 @@ static NSAttributedString *sbdisplay(NSString *str, NSInteger half) {
 - (void)drawRect:(NSRect)dirtyRect
 {
     [self.label setAttributedStringValue:sbdisplay(self.info, self.num)];
-    [[NSColor colorWithDeviceWhite:0.1f alpha:1.0f] set];
+    [[NSColor colorWithDeviceWhite:0.15f alpha:1.0f] set];
     NSRectFill(dirtyRect);
 }
 
