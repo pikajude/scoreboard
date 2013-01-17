@@ -15,6 +15,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self reset];
+        goalHorn = nil;
     }
     
     return self;
@@ -28,20 +29,27 @@
     self.bright = NO;
 }
 
+- (void)awakeFromNib
+{
+    [self.logo setAlphaValue:0.5];
+}
+
 - (void)drawRect:(NSRect)dirtyRect
 {
+    [self.logo setImage:[NSImage imageNamed:[NSString stringWithFormat:@"%@.png", self.team]]];
+    
     // text styles
     NSShadow *textShadow = [[NSShadow new] autorelease];
     [textShadow setShadowColor:[NSColor colorWithDeviceWhite:0.0 alpha:0.2f]];
     [textShadow setShadowBlurRadius:0.0f];
     [textShadow setShadowOffset:NSMakeSize(0, -2)];
     NSMutableDictionary *textAttr = [[@{
-        NSFontAttributeName: [NSFont fontWithName:@"Helvetica Neue Bold" size:36.0f],
-        NSForegroundColorAttributeName: self.bright
+                                      NSFontAttributeName: [NSFont fontWithName:@"Helvetica Neue Bold" size:36.0f],
+                                      NSForegroundColorAttributeName: self.bright
                                       ? [NSColor colorWithDeviceWhite:0.5f alpha:1.0f]
                                       : [NSColor whiteColor],
-        NSShadowAttributeName: textShadow
-    } mutableCopy] autorelease];
+                                      NSShadowAttributeName: textShadow
+                                      } mutableCopy] autorelease];
     
     NSMutableParagraphStyle *st = [[[NSParagraphStyle defaultParagraphStyle] mutableCopy] autorelease];
     [st setAlignment:NSCenterTextAlignment];
@@ -51,8 +59,10 @@
     NSRectFill(dirtyRect);
     
     // draw the team name
-    [[self.team uppercaseString] drawAtPoint:NSMakePoint(dirtyRect.origin.x + 11, dirtyRect.origin.y + 7)
-                                                         withAttributes:textAttr];
+    /* [[self.team uppercaseString] drawAtPoint:NSMakePoint(dirtyRect.origin.x + 11, dirtyRect.origin.y + 7)
+                              withAttributes:textAttr]; */
+    
+    [self.teamName setAttributedStringValue:[[[NSAttributedString alloc] initWithString:[self.team uppercaseString] attributes:textAttr] autorelease]];
     
     // draw the dark score square
     [[NSColor colorWithDeviceWhite:0.0f alpha:0.3f] set];
@@ -76,18 +86,30 @@
     [textAttr setValue:[NSColor whiteColor] forKey:NSForegroundColorAttributeName];
     [textAttr setValue:st forKey:NSParagraphStyleAttributeName];
     /* [[NSString stringWithFormat:@"%ld", self.score] drawAtPoint:NSMakePoint(dirtyRect.origin.x + 248, dirtyRect.origin.y + 7)
-                                                 withAttributes:textAttr]; */
+     withAttributes:textAttr]; */
     [[NSString stringWithFormat:@"%ld", self.score] drawInRect:NSMakeRect(dirtyRect.origin.x + 230, dirtyRect.origin.y - 4.5, dirtyRect.size.width - 230, dirtyRect.size.height)
                                                 withAttributes:textAttr];
     
     // draw the shadow
-    NSGradient *shadow = [[NSGradient alloc] initWithColorsAndLocations:[NSColor colorWithDeviceWhite:0.0f alpha:0.1f], 0.0f, [NSColor clearColor], 1.0f, nil];
+    NSGradient *shadow = [[[NSGradient alloc] initWithColorsAndLocations:[NSColor colorWithDeviceWhite:0.0f alpha:0.1f], 0.0f, [NSColor clearColor], 1.0f, nil] autorelease];
     [shadow drawInRect:NSMakeRect(dirtyRect.origin.x + 230.0f, dirtyRect.origin.y, 12.0f, dirtyRect.size.height) angle:0.0f];
 }
 
 - (void)tickUp
 {
     self.score++;
+    if([self hasGoalHorn]) {
+        if(goalHorn) {
+            [goalHorn stop];
+            [goalHorn play];
+        } else {
+            goalHorn = [NSSound soundNamed:[NSString stringWithFormat:@"%@.mp3", self.team]];
+            if(goalHorn)
+                [goalHorn play];
+            else
+                [self setHasGoalHorn:NO];
+        }
+    }
     [self setNeedsDisplay:YES];
 }
 
@@ -95,6 +117,13 @@
 {
     self.score = 0;
     [self setNeedsDisplay:YES];
+}
+
+- (void)dealloc
+{
+    if(goalHorn != nil)
+       [goalHorn release];
+    [super dealloc];
 }
 
 @end

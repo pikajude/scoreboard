@@ -20,6 +20,7 @@
 @property (assign) IBOutlet NSPopUpButton *awayTeams;
 @property (assign) IBOutlet JTInfoView *half;
 @property (assign) IBOutlet JTInfoView *game;
+@property (assign) IBOutlet NSButton *useHorns;
 
 - (IBAction)homeTickUp:(id)sender;
 - (IBAction)homeTickDown:(id)sender;
@@ -34,5 +35,8 @@
 
 - (void)pickHomeTeam:(NSMenuItem *)sender;
 - (void)pickAwayTeam:(NSMenuItem *)sender;
+
+- (IBAction)toggleHorns:(id)sender;
+- (BOOL)willUseHorns;
 
 @end

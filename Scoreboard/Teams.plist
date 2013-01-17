@@ -19,8 +19,8 @@
 			<string>Duckies</string>
 			<key>color</key>
 			<string>ffff54</string>
-            <key>bright</key>
-            <true/>
+			<key>bright</key>
+			<true/>
 		</dict>
 		<key>Sexy Sharks</key>
 		<dict>
@@ -28,8 +28,8 @@
 			<string>Sharks</string>
 			<key>color</key>
 			<string>1b6453</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 		<key>Lithuanian Lab Rats</key>
 		<dict>
@@ -37,8 +37,8 @@
 			<string>Rats</string>
 			<key>color</key>
 			<string>99cc00</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 		<key>Honolulu Frog Dogs</key>
 		<dict>
@@ -46,8 +46,8 @@
 			<string>Frogs</string>
 			<key>color</key>
 			<string>008000</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 		<key>Talladega Nights</key>
 		<dict>
@@ -55,8 +55,8 @@
 			<string>Nights</string>
 			<key>color</key>
 			<string>000052</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 		<key>Fresno Forest Fires</key>
 		<dict>
@@ -64,8 +64,8 @@
 			<string>Fires</string>
 			<key>color</key>
 			<string>9f00ff</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 		<key>Whitebeard Pirates</key>
 		<dict>
@@ -82,8 +82,8 @@
 			<string>m0nstars</string>
 			<key>color</key>
 			<string>000000</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 		<key>Hip-Hop Kangaroos</key>
 		<dict>
@@ -91,8 +91,8 @@
 			<string>Roos</string>
 			<key>color</key>
 			<string>ffff00</string>
-            <key>bright</key>
-            <true/>
+			<key>bright</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>PHL D2</key>
@@ -103,8 +103,8 @@
 			<string>Lions</string>
 			<key>color</key>
 			<string>1299ef</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 		<key>HC Spartans</key>
 		<dict>
@@ -112,8 +112,8 @@
 			<string>Spartans</string>
 			<key>color</key>
 			<string>deb887</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 		<key>The Conquistadores</key>
 		<dict>
@@ -121,8 +121,8 @@
 			<string>Conqs</string>
 			<key>color</key>
 			<string>df9d1f</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 		<key>Gotham City Batmen</key>
 		<dict>
@@ -130,8 +130,8 @@
 			<string>Batmen</string>
 			<key>color</key>
 			<string>656565</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 		<key>Mexico</key>
 		<dict>
@@ -139,17 +139,17 @@
 			<string>México</string>
 			<key>color</key>
 			<string>2d2efe</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 		<key>Pillsbury Doughboys</key>
 		<dict>
 			<key>display</key>
-			<string>D-boys</string>
+			<string>Pillsbury</string>
 			<key>color</key>
 			<string>89cff0</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 		<key>Rhythm Beasts</key>
 		<dict>
@@ -157,17 +157,17 @@
 			<string>Beasts</string>
 			<key>color</key>
 			<string>26619c</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 		<key>Stockholm Syndrome</key>
 		<dict>
 			<key>display</key>
-			<string>Syndrome</string>
+			<string>SS</string>
 			<key>color</key>
 			<string>008080</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 		<key>Tanzanian Test Tubes</key>
 		<dict>
@@ -175,8 +175,8 @@
 			<string>Tubes</string>
 			<key>color</key>
 			<string>ffffff</string>
-            <key>bright</key>
-            <true/>
+			<key>bright</key>
+			<true/>
 		</dict>
 		<key>Wolf Pack</key>
 		<dict>
@@ -184,375 +184,375 @@
 			<string>Wolves</string>
 			<key>color</key>
 			<string>cf0000</string>
-            <key>bright</key>
-            <false/>
+			<key>bright</key>
+			<false/>
 		</dict>
 	</dict>
-    <key>SPHB Majors</key>
-    <dict>
-        <key>Robot Bears</key>
-        <dict>
-            <key>display</key>
-            <string>Bears</string>
-            <key>color</key>
-            <string>663300</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Toronto Turtles</key>
-        <dict>
-            <key>display</key>
-            <string>Turtles</string>
-            <key>color</key>
-            <string>83f52c</string>
-            <key>bright</key>
-            <true/>
-        </dict>
-        <key>Seal Team Six</key>
-        <dict>
-            <key>display</key>
-            <string>Seals</string>
-            <key>color</key>
-            <string>5e8d8c</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Swifty Cats</key>
-        <dict>
-            <key>display</key>
-            <string>Cats</string>
-            <key>color</key>
-            <string>fa8072</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Boston Crabs</key>
-        <dict>
-            <key>display</key>
-            <string>Crabs</string>
-            <key>color</key>
-            <string>6a89ca</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>London Silly Nannies</key>
-        <dict>
-            <key>display</key>
-            <string>Nannies</string>
-            <key>color</key>
-            <string>008000</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Manic Pixie Dream Girls</key>
-        <dict>
-            <key>display</key>
-            <string>Pixies</string>
-            <key>color</key>
-            <string>6afb92</string>
-            <key>bright</key>
-            <true/>
-        </dict>
-        <key>Compton Cop Killas</key>
-        <dict>
-            <key>display</key>
-            <string>CCK</string>
-            <key>color</key>
-            <string>00ffff</string>
-            <key>bright</key>
-            <true/>
-        </dict>
-        <key>Arizona Terror Drones</key>
-        <dict>
-            <key>display</key>
-            <string>Drones</string>
-            <key>color</key>
-            <string>ff0000</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Snow Island Disco Penguins</key>
-        <dict>
-            <key>display</key>
-            <string>Penguins</string>
-            <key>color</key>
-            <string>0066ff</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Dallas Snipers</key>
-        <dict>
-            <key>display</key>
-            <string>Snipers</string>
-            <key>color</key>
-            <string>000000</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>New York Islanders</key>
-        <dict>
-            <key>display</key>
-            <string>Isles</string>
-            <key>color</key>
-            <string>ffa500</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>T90's Dynasty</key>
-        <dict>
-            <key>display</key>
-            <string>Dynasty</string>
-            <key>color</key>
-            <string>800080</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>New York Costanzas</key>
-        <dict>
-            <key>display</key>
-            <string>Costanzas</string>
-            <key>color</key>
-            <string>666666</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>South Africa Swag Giraffes</key>
-        <dict>
-            <key>display</key>
-            <string>Giraffes</string>
-            <key>color</key>
-            <string>a8a161</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Tiananmen Squares</key>
-        <dict>
-            <key>display</key>
-            <string>Squares</string>
-            <key>color</key>
-            <string>cccc00</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Brooklyn Bosses</key>
-        <dict>
-            <key>display</key>
-            <string>Bosses</string>
-            <key>color</key>
-            <string>c0c0c0</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Qatari Princes</key>
-        <dict>
-            <key>display</key>
-            <string>Princes</string>
-            <key>color</key>
-            <string>990000</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Los Angeles Haxball Club</key>
-        <dict>
-            <key>display</key>
-            <string>LAHC</string>
-            <key>color</key>
-            <string>ff00cc</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Sendai Tsunamis</key>
-        <dict>
-            <key>display</key>
-            <string>Tsunamis</string>
-            <key>color</key>
-            <string>0000ff</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-    </dict>
-    <key>SPHB Minors</key>
-    <dict>
-        <key>Cyborg Cubs</key>
-        <dict>
-            <key>display</key>
-            <string>Cubs</string>
-            <key>color</key>
-            <string>663300</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Minnesota Winter</key>
-        <dict>
-            <key>display</key>
-            <string>Winter</string>
-            <key>color</key>
-            <string>83f52c</string>
-            <key>bright</key>
-            <true/>
-        </dict>
-        <key>Walrus Tusk Force</key>
-        <dict>
-            <key>display</key>
-            <string>WTF</string>
-            <key>color</key>
-            <string>5e8d8c</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Swifty Kittens</key>
-        <dict>
-            <key>display</key>
-            <string>Kittens</string>
-            <key>color</key>
-            <string>fa8072</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Staten Island Shaolin</key>
-        <dict>
-            <key>display</key>
-            <string>Shaolin</string>
-            <key>color</key>
-            <string>6a89ca</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Warsaw War Saws</key>
-        <dict>
-            <key>display</key>
-            <string>War Saws</string>
-            <key>color</key>
-            <string>008000</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Newark Nymphs</key>
-        <dict>
-            <key>display</key>
-            <string>Nymphs</string>
-            <key>color</key>
-            <string>6afb92</string>
-            <key>bright</key>
-            <true/>
-        </dict>
-        <key>DK Academy</key>
-        <dict>
-            <key>display</key>
-            <string>DKA</string>
-            <key>color</key>
-            <string>00ffff</string>
-            <key>bright</key>
-            <true/>
-        </dict>
-        <key>Portland Pitchforks</key>
-        <dict>
-            <key>display</key>
-            <string>Forks</string>
-            <key>color</key>
-            <string>ff0000</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Seoul Trains</key>
-        <dict>
-            <key>display</key>
-            <string>Trains</string>
-            <key>color</key>
-            <string>0066ff</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Waco Raiders</key>
-        <dict>
-            <key>display</key>
-            <string>Raiders</string>
-            <key>color</key>
-            <string>000000</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Miami Chews</key>
-        <dict>
-            <key>display</key>
-            <string>Chews</string>
-            <key>color</key>
-            <string>ffa500</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Rostock U-Boats</key>
-        <dict>
-            <key>display</key>
-            <string>U-Boats</string>
-            <key>color</key>
-            <string>800080</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Portland Pathfinders</key>
-        <dict>
-            <key>display</key>
-            <string>Finders</string>
-            <key>color</key>
-            <string>666666</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Harlem Bike Thieves</key>
-        <dict>
-            <key>display</key>
-            <string>Thieves</string>
-            <key>color</key>
-            <string>a8a161</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Ho Chi Minhutemen</key>
-        <dict>
-            <key>display</key>
-            <string>HCM</string>
-            <key>color</key>
-            <string>cccc00</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Slaughterville Minibosses</key>
-        <dict>
-            <key>display</key>
-            <string>M'bosses</string>
-            <key>color</key>
-            <string>c0c0c0</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Gulf War Syndrome</key>
-        <dict>
-            <key>display</key>
-            <string>Syndrome</string>
-            <key>color</key>
-            <string>990000</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Los Angeles Haxball Club: Minors</key>
-        <dict>
-            <key>display</key>
-            <string>LAHC:M</string>
-            <key>color</key>
-            <string>ff00cc</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-        <key>Tokyo Typhoons</key>
-        <dict>
-            <key>display</key>
-            <string>Typhoons</string>
-            <key>color</key>
-            <string>0000ff</string>
-            <key>bright</key>
-            <false/>
-        </dict>
-    </dict>
+	<key>SPHB Majors</key>
+	<dict>
+		<key>Robot Bears</key>
+		<dict>
+			<key>display</key>
+			<string>Bears</string>
+			<key>color</key>
+			<string>663300</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Toronto Turtles</key>
+		<dict>
+			<key>display</key>
+			<string>Turtles</string>
+			<key>color</key>
+			<string>83f52c</string>
+			<key>bright</key>
+			<true/>
+		</dict>
+		<key>Seal Team Six</key>
+		<dict>
+			<key>display</key>
+			<string>Seals</string>
+			<key>color</key>
+			<string>5e8d8c</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Swifty Cats</key>
+		<dict>
+			<key>display</key>
+			<string>Cats</string>
+			<key>color</key>
+			<string>fa8072</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Boston Crabs</key>
+		<dict>
+			<key>display</key>
+			<string>Crabs</string>
+			<key>color</key>
+			<string>6a89ca</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>London Silly Nannies</key>
+		<dict>
+			<key>display</key>
+			<string>Nannies</string>
+			<key>color</key>
+			<string>008000</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Manic Pixie Dream Girls</key>
+		<dict>
+			<key>display</key>
+			<string>Pixies</string>
+			<key>color</key>
+			<string>6afb92</string>
+			<key>bright</key>
+			<true/>
+		</dict>
+		<key>Compton Cop Killas</key>
+		<dict>
+			<key>display</key>
+			<string>CCK</string>
+			<key>color</key>
+			<string>00ffff</string>
+			<key>bright</key>
+			<true/>
+		</dict>
+		<key>Arizona Terror Drones</key>
+		<dict>
+			<key>display</key>
+			<string>Drones</string>
+			<key>color</key>
+			<string>ff0000</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Snow Island Disco Penguins</key>
+		<dict>
+			<key>display</key>
+			<string>Penguins</string>
+			<key>color</key>
+			<string>0066ff</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Dallas Snipers</key>
+		<dict>
+			<key>display</key>
+			<string>Snipers</string>
+			<key>color</key>
+			<string>000000</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>New York Islanders</key>
+		<dict>
+			<key>display</key>
+			<string>Isles</string>
+			<key>color</key>
+			<string>ffa500</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>T90&apos;s Dynasty</key>
+		<dict>
+			<key>display</key>
+			<string>Dynasty</string>
+			<key>color</key>
+			<string>800080</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>New York Costanzas</key>
+		<dict>
+			<key>display</key>
+			<string>&apos;Stanzas</string>
+			<key>color</key>
+			<string>666666</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>South Africa Swag Giraffes</key>
+		<dict>
+			<key>display</key>
+			<string>Giraffes</string>
+			<key>color</key>
+			<string>a8a161</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Tiananmen Squares</key>
+		<dict>
+			<key>display</key>
+			<string>Squares</string>
+			<key>color</key>
+			<string>cccc00</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Brooklyn Bosses</key>
+		<dict>
+			<key>display</key>
+			<string>Bosses</string>
+			<key>color</key>
+			<string>c0c0c0</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Qatari Princes</key>
+		<dict>
+			<key>display</key>
+			<string>Princes</string>
+			<key>color</key>
+			<string>990000</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Los Angeles Haxball Club</key>
+		<dict>
+			<key>display</key>
+			<string>LAHC</string>
+			<key>color</key>
+			<string>ff00cc</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Sendai Tsunamis</key>
+		<dict>
+			<key>display</key>
+			<string>Tsunamis</string>
+			<key>color</key>
+			<string>0000ff</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SPHB Minors</key>
+	<dict>
+		<key>Cyborg Cubs</key>
+		<dict>
+			<key>display</key>
+			<string>Cubs</string>
+			<key>color</key>
+			<string>663300</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Minnesota Winter</key>
+		<dict>
+			<key>display</key>
+			<string>Winter</string>
+			<key>color</key>
+			<string>83f52c</string>
+			<key>bright</key>
+			<true/>
+		</dict>
+		<key>Walrus Tusk Force</key>
+		<dict>
+			<key>display</key>
+			<string>WTF</string>
+			<key>color</key>
+			<string>5e8d8c</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Swifty Kittens</key>
+		<dict>
+			<key>display</key>
+			<string>Kittens</string>
+			<key>color</key>
+			<string>fa8072</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Staten Island Shaolin</key>
+		<dict>
+			<key>display</key>
+			<string>Shaolin</string>
+			<key>color</key>
+			<string>6a89ca</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Warsaw War Saws</key>
+		<dict>
+			<key>display</key>
+			<string>War Saws</string>
+			<key>color</key>
+			<string>008000</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Newark Nymphs</key>
+		<dict>
+			<key>display</key>
+			<string>Nymphs</string>
+			<key>color</key>
+			<string>6afb92</string>
+			<key>bright</key>
+			<true/>
+		</dict>
+		<key>DK Academy</key>
+		<dict>
+			<key>display</key>
+			<string>DKA</string>
+			<key>color</key>
+			<string>00ffff</string>
+			<key>bright</key>
+			<true/>
+		</dict>
+		<key>Portland Pitchforks</key>
+		<dict>
+			<key>display</key>
+			<string>Forks</string>
+			<key>color</key>
+			<string>ff0000</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Seoul Trains</key>
+		<dict>
+			<key>display</key>
+			<string>Trains</string>
+			<key>color</key>
+			<string>0066ff</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Waco Raiders</key>
+		<dict>
+			<key>display</key>
+			<string>Raiders</string>
+			<key>color</key>
+			<string>000000</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Miami Chews</key>
+		<dict>
+			<key>display</key>
+			<string>Chews</string>
+			<key>color</key>
+			<string>ffa500</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Rostock U-Boats</key>
+		<dict>
+			<key>display</key>
+			<string>U-Boats</string>
+			<key>color</key>
+			<string>800080</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Portland Pathfinders</key>
+		<dict>
+			<key>display</key>
+			<string>Finders</string>
+			<key>color</key>
+			<string>666666</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Harlem Bike Thieves</key>
+		<dict>
+			<key>display</key>
+			<string>Thieves</string>
+			<key>color</key>
+			<string>a8a161</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Ho Chi Minhutemen</key>
+		<dict>
+			<key>display</key>
+			<string>HCM</string>
+			<key>color</key>
+			<string>cccc00</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Slaughterville Minibosses</key>
+		<dict>
+			<key>display</key>
+			<string>M&apos;bosses</string>
+			<key>color</key>
+			<string>c0c0c0</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Gulf War Syndrome</key>
+		<dict>
+			<key>display</key>
+			<string>Syndrome</string>
+			<key>color</key>
+			<string>990000</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Los Angeles Haxball Club: Minors</key>
+		<dict>
+			<key>display</key>
+			<string>LAHC:M</string>
+			<key>color</key>
+			<string>ff00cc</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+		<key>Tokyo Typhoons</key>
+		<dict>
+			<key>display</key>
+			<string>Typhoons</string>
+			<key>color</key>
+			<string>0000ff</string>
+			<key>bright</key>
+			<false/>
+		</dict>
+	</dict>
 </dict>
 </plist>

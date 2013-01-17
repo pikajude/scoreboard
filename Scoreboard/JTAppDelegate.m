@@ -98,6 +98,7 @@
     self.homeTeam.team = [attr objectForKey:@"display"];
     self.homeTeam.color = [JTTeamColors hexToColor:[attr objectForKey:@"color"]];
     self.homeTeam.bright = [[attr objectForKey:@"bright"] boolValue];
+    [self.homeTeam setHasGoalHorn:[self willUseHorns]];
     [self.homeTeam setNeedsDisplay:YES];
 }
 
@@ -107,7 +108,19 @@
     self.awayTeam.team = [attr objectForKey:@"display"];
     self.awayTeam.color = [JTTeamColors hexToColor:[attr objectForKey:@"color"]];
     self.awayTeam.bright = [[attr objectForKey:@"bright"] boolValue];
+    [self.awayTeam setHasGoalHorn:[self willUseHorns]];
     [self.awayTeam setNeedsDisplay:YES];
+}
+
+- (IBAction)toggleHorns:(id)sender
+{
+    [self.homeTeam setHasGoalHorn:[sender state] == 1];
+    [self.awayTeam setHasGoalHorn:[sender state] == 1];
+}
+
+- (BOOL)willUseHorns
+{
+    return [[self useHorns] state] == 1;
 }
 
 @end
